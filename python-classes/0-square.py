@@ -3,6 +3,7 @@
     define a class 'Square
 """
 
+
 class Square:
     """
         square
