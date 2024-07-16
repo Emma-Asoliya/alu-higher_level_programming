@@ -1,4 +1,4 @@
-#!/usr/bin/python3 
+#!/usr/bin/python3
 """
     define a function 'load_from_json_file'
     import 'json'
