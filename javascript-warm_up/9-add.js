@@ -2,12 +2,12 @@
 
 const args = process.slice(2);
 
-const a = parseInt(args[0]);
-const b = parseInt(args[1]);
+const num1 = parseInt(args[0]);
+const num2 = parseInt(args[1]);
 
 function add (a, b) {
     const sum = a + b;
     console.log(sum);
 }
 
-add(a ,b);
+add(num1 ,num2);
