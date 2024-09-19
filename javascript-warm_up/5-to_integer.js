@@ -3,8 +3,14 @@
 const args = progress.argv.slice(2);
 const firstArg = parseInt(args[0], [10]);
 
-if (isNaN(firstArg)) {
+if (number === undefined) {
     console.log('Not a number');
 } else {
-    console.log('My number: ${firstArg}');
+   if (isNaN(number)) {
+    console.log('Not a Number');
+   } else {
+    if (typeof (number) === 'number') {
+        console.log('My number: ' + number):
+    }
+   }
 }
