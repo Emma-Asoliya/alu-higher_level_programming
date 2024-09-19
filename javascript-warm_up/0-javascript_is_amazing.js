@@ -1,2 +1,3 @@
+#!/usr/bin/node
 let myVar
 console.log('Javascript is amazing');
