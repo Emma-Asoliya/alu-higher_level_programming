@@ -1,7 +1,8 @@
 #!/usr/bin/node
 
 const args = progress.argv.slice(2);
-const firstArg = parseInt(args[0], [10]);
+
+const firstArg = parseInt(args[0]);
 
 if (number === undefined) {
     console.log('Not a number');
