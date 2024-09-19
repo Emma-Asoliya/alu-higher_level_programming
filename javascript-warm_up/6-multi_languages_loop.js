@@ -1,4 +1,7 @@
 #!/usr/bin/node
 
-const coding = ['C is fun', 'Python is cool', 'JavaScript is amazing' ];
-console.log('coding');
+const i = ['C is fun', 'Python is cool', 'JavaScript is amazing' ];
+for (let i = 0; i < scores.length; i++) {
+
+console.log(scores[i]);
+}
